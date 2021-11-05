@@ -1,0 +1,31 @@
+Algoritmo  acatividad1
+	Definir dato,i Como Entero
+	Definir ciudades como cadena
+	
+	Escribir "Dime cuantas ciudades quieres"
+	
+	Leer dato
+	Dimension ciudades[dato]
+	
+	
+	Para i=0 Hasta dato-1 Hacer
+		Escribir "dime las ciudades",i
+		Leer ciudades[i]
+	FinPara
+	
+	
+	para i=0 hasta dato-1  Hacer
+		escribir ciudades[i]
+		escribir " tiene ",Longitud(ciudades[i]) " letras"
+		Escribir Mayusculas(Subcadena(ciudades[i],0,1))
+	FinPara
+	
+
+	
+	
+	
+	
+	
+	
+	
+FinAlgoritmo
